@@ -1,0 +1,9 @@
+version: '3'
+services:
+  api:
+    image: testing
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "4000:4000"
